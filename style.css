@@ -14,6 +14,10 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+    color: #666666;
+}
+
 a:first-child {
     margin-left: 0px;
 }
@@ -21,6 +25,11 @@ a:first-child {
 #homePage #home,
 #AboutPage #About {
     color: #0000ff;
+}
+
+#homePage #home:hover,
+#AboutPage #About:hover {
+    color: #6666ff;
 }
 
 button {
@@ -33,8 +42,8 @@ ul {
 }
 
 .container {
-    max-width: 600px;
-    padding: 0px 10px;
+    max-width: 625px;
+    padding: 0px 25px;
     margin: 0px auto;
 }
 
@@ -81,6 +90,11 @@ main .flex #text {
     padding: 12px 21px;
     font-size: 20px;
     font-weight: 400;
+    min-width: 100px;
+}
+
+main .flex #text:hover {
+    border-color: #aaaaaa;
 }
 
 main .flex #add {
@@ -94,11 +108,15 @@ main .flex #add {
 }
 
 main .flex #add:hover {
-    background-color: #5500ff;
+    background-color: #6666ff;
 }
 
 main .flex #add:active {
-    background-color: #5555ff;
+    background-color: #2222ff;
+}
+
+main #toDoList {
+    transition: 1s;
 }
 
 main #toDoList li {
@@ -118,10 +136,24 @@ main #toDoList li:last-child {
     margin-bottom: 30px;
 }
 
+
+#toDoList li svg:hover rect {
+    transition: 200ms;
+    fill: #ff0000;
+    stroke: none;
+}
+
+#toDoList li svg:hover line {
+    transition: 200ms;
+    stroke: #ffffff;
+    stroke-width: 2px;
+}
+
 main #total {
     color: #666666;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 100px;
 }
 
 main #total strong {
@@ -145,4 +177,13 @@ footer p {
 
 footer p span {
     color: #0000ff;
+}
+
+@media (max-width: 650px) {
+    main .flex button#add {
+        position: fixed;
+        bottom: 29px;
+        left: 25px;
+        right: 25px;
+    }
 }

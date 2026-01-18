@@ -12,7 +12,7 @@ text.addEventListener("keydown", (e) => {
 })
 
 function addNote() {
-    toDoArr.unshift(text.value);
+    toDoArr.push(text.value);
     text.value = '';
     save()
     printNote();
