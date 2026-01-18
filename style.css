@@ -18,7 +18,8 @@ a:first-child {
     margin-left: 0px;
 }
 
-#homePage #home {
+#homePage #home,
+#AboutPage #About {
     color: #0000ff;
 }
 
@@ -125,4 +126,23 @@ main #total {
 
 main #total strong {
     color: #000000;
+}
+
+main #aboutImg {
+    margin-top: 82px;
+}
+
+footer {
+    margin-top: 241px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #666666;
+}
+
+footer p span {
+    color: #0000ff;
 }
