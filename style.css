@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 27px;
+    font-size: 18px;
+}
+
+a:first-child {
+    margin-left: 0px;
+}
+
+#homePage #home {
+    color: #0000ff;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 600px;
+    padding: 0px 10px;
+    margin: 0px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+header {
+    padding: 20px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+main {
+    padding-top: 66px;
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.hero p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 38px;
+}
+
+main .flex {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f6f6f6;
+    margin-bottom: 16px;
+}
+
+main .flex #text {
+    height: 48px;
+    width: auto;
+    flex-grow: 3;
+    border: 2px #eeeeee solid;
+    border-radius: 8px;
+    padding: 12px 21px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main .flex #add {
+    height: 48px;
+    flex-grow: 1;
+    background-color: #0000ff;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .flex #add:hover {
+    background-color: #5500ff;
+}
+
+main #toDoList li {
+    background-color: #f6f6f6;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 21px;
+    border-radius: 8px;
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main #toDoList li:last-child {
+    margin-bottom: 30px;
+}
