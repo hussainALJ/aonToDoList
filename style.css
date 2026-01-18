@@ -96,6 +96,10 @@ main .flex #add:hover {
     background-color: #5500ff;
 }
 
+main .flex #add:active {
+    background-color: #5555ff;
+}
+
 main #toDoList li {
     background-color: #f6f6f6;
     font-size: 20px;
@@ -111,4 +115,14 @@ main #toDoList li {
 
 main #toDoList li:last-child {
     margin-bottom: 30px;
+}
+
+main #total {
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main #total strong {
+    color: #000000;
 }

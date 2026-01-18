@@ -51,7 +51,7 @@ function deleteNote(note) {
 }
 
 function upDateCounter() {
-    counter.innerHTML = `Total list: <span>${toDoArr.length}</span>`
+    counter.innerHTML = `Total list: <strong>${toDoArr.length}</strong>`
 }
 
 printNote();
