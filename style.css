@@ -160,8 +160,9 @@ main #total strong {
     color: #000000;
 }
 
-main #aboutImg {
+main #aboutImg svg {
     margin-top: 82px;
+    max-width: 573px;
 }
 
 footer {
