@@ -111,14 +111,6 @@ main .flex #add:hover {
     background-color: #6666ff;
 }
 
-main .flex #add:active {
-    background-color: #2222ff;
-}
-
-main #toDoList {
-    transition: 1s;
-}
-
 main #toDoList li {
     background-color: #f6f6f6;
     font-size: 20px;
@@ -144,6 +136,18 @@ main #toDoList li:last-child {
 }
 
 #toDoList li svg:hover line {
+    transition: 200ms;
+    stroke: #ffffff;
+    stroke-width: 2px;
+}
+
+#toDoList li .delete:active rect {
+    transition: 200ms;
+    fill: #ff0000;
+    stroke: none;
+}
+
+#toDoList li .delete:active line {
     transition: 200ms;
     stroke: #ffffff;
     stroke-width: 2px;
